@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Wssp_Project</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_sub_menu">SubMenuActivity</string>
+</resources>
