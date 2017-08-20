@@ -13,10 +13,6 @@ import retrofit2.http.Query;
  */
 
 public interface ApiService {
-    /*
-    Retrofit get annotation with our URL
-    And our method that will return us the List of ContactList
-    */
     @GET("users")
     Call<List<UserInfo>> setUserQuery(@Query("id") int id);
 

@@ -10,7 +10,7 @@ public class UserEntry {
 
     public UserEntry(UserInfo arg1, UserPhoto arg2) {
         this.info = arg1;
-        this.pic = arg2;
+        this.pic  = arg2;
     }
 
     public void setProfile(UserInfo info){

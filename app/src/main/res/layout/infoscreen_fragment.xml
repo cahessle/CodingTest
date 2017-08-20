@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.christian.wssp_project.InfoScreenFragment"
+    android:id="@+id/infoScreenLayout"
+    android:background="?android:windowBackground">
+
+    <TextView
+        android:id="@+id/nameHdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="name:"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/nameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/usernameHdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="username:"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/usernameField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/emailHdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="email:"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/emailField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/phoneHdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="phone number:"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/phoneField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:autoLink="phone"
+        android:textColorLink="#0000ff"
+        android:linksClickable="true"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/websiteHdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="website:"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/websiteField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/addressHdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="address:"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/addressField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/geoHdr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:text="geolocation:"
+        tools:text="TextView" />
+
+    <TextView
+        android:id="@+id/geoField"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:textColor="#0000ff"
+        android:onClick="onXmlClick"
+        android:clickable="true"
+        tools:text="TextView" />
+
+</LinearLayout>
